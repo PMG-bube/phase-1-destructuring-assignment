@@ -8,7 +8,7 @@ const muppet = {
   song: 'Never Before, Never Again',
   job: 'Cast member of The Muppet Show',
   partner: 'Kermit'
-};
+  };
 
 const nestedMuppet = {
   nestedName: 'Kermit',
@@ -24,6 +24,23 @@ const nestedMuppet = {
   nestedJob: 'Host of The Muppet Show',
   nestedPartner: 'Miss Piggy'
 };
+const animals=farmAnimals.split(' ');
+const  [moo,neigh,baa,oink,cluck]=animals;
+console.log(moo,neigh,baa,oink,cluck);
+const names=farmAnimals.split(' ');
+const [bessie,,dolly,babe,little]=names;
+const colour=farmAnimals.split(' ');
+const[blackAndWhite,,black,pink,]=colour;
+const rainbow=colors;
+const [red, orange, yellow,green,blue,indigo,violet]=rainbow;
+const initials=colors;
+const[r,o,y,g,b,i,v]=initials;
+const chars=colors;
+const [,,,,,indg,]=chars;
+const{muppetName,color,song,job,partner}=muppet;
+const{album:{theMuppetMovie:{song2,song4}},
+nestedJob,nestedPartner}=nestedMuppet;
+
 
 // Strings
 
